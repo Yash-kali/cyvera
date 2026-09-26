@@ -1,0 +1,51 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Databases / local runtime data
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# Generated reports / runtime artifacts
+reports/
+generated_reports/
+runtime/
+*.pdf
+
+# Logs
+*.log
+logs/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+scratch/__pycache__/
+
+# Scratch test artifacts
+scratch/*.pdf
+scratch/failures.txt
+scratch/fail_name.txt
+scratch/single_fail.txt
